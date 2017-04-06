@@ -27,5 +27,5 @@ https://cloud.google.com/appengine/docs/standard/python/ndb/#storing
 
 NDB Queries using GQL
 -
-Using SELECT in NDB 
+Using SELECT in NDB     
 https://cloud.google.com/appengine/docs/standard/python/ndb/queries#gql
