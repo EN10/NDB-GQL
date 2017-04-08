@@ -28,7 +28,6 @@ class DisplayIP(webapp2.RequestHandler):
   def get(self):
     q = ndb.gql("SELECT * FROM IP ORDER BY date DESC")
     row = q.get()
-    self.response.headers['Content-Type'] = 'text/plain'
     self.response.write(row.ip)
 
 app = webapp2.WSGIApplication([
